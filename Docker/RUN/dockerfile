@@ -1,2 +1,5 @@
 FROM almalinux
 RUN yum install nginx -y
+RUN adduser nginx
+USER nginx
+RUN touch /tmp/hello.txt
