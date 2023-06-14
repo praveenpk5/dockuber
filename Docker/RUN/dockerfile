@@ -2,3 +2,5 @@ FROM almalinux
 RUN yum install nginx -y
 USER nginx
 RUN touch /tmp/hello.txt
+RUN cat /usr/share/nginx/html/
+RUN echo "Hello world" >  HI.html
