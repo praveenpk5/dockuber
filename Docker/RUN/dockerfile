@@ -3,4 +3,4 @@ RUN yum install nginx -y
 USER nginx
 RUN touch /tmp/hello.txt
 RUN cd /usr/share/nginx/html/
-RUN echo "Hello world" >  HI.html
+
