@@ -1,5 +1,5 @@
 #!/bin/sh
-a = 10
+a=10
 b = xyz
 c = true
 d = abc123
