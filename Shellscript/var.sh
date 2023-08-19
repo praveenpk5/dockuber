@@ -5,4 +5,4 @@ c = true
 d = abc123
 x = "1 * 2"
 echo value of a = $a
-echo value of b = $b
+echo value of b = ${b}
