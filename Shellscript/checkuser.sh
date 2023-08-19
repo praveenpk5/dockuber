@@ -5,7 +5,7 @@ echo "you need to root user to execute this script"
 exit 1
 fi
 
-yum install nginx -y
+sudo yum install nginx -y
 if [ $? -ne 0 ]; then
 echo "installing nginx is failed"
 exit 1
