@@ -1,3 +1,3 @@
 #!/bin/bash
-echo -e "\e[1:31mline1\tline2[0m"
+echo -e "[31m line1\tline2"
 echo -e "word1\nword2"
