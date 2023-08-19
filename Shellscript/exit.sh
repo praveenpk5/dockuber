@@ -1,6 +1,17 @@
 #!/bin/sh
 
 lss -ltr
-echo "exit status:$?"
+
+if [$? -ne 0]; then
+
+echo "previous command is failed"
+exit 1
+fi
+
 ls -ltr
-echo "exit status:$?"
+
+if [$? -ne 0]; then
+echo "previous command is failed"
+exit 1
+fi 
+echo "program is success"
