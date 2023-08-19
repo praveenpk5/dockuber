@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "enter value:"
-read= value
-echo "your entered value: $value
+read = number
+echo "your entered value: $number
