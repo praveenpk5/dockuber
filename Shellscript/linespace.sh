@@ -1,3 +1,3 @@
 #!/bin/bash
-echo -e "line1\nline2"
-echo -e "word1\tword2"
+echo -e "line1\tline2"
+echo -e "word1\nword2"
