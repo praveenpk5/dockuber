@@ -1,6 +1,7 @@
 FROM almalinux
 LABEL Name="Praveen" \
       courese="DevOps" \
-      Timings="6am to 7am"
+      Timings="6am to 7am" \
+      Duration="75hours"
 
 
