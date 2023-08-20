@@ -7,8 +7,8 @@ ssh ec2-user@13.233.204.208
 sudo yum install -y nodejs npm
 
 # Clone the application code
-#git clone https://github.com/myuser/myapp.git
-#cd myapp
+git clone https://github.com/myuser/myapp.git
+cd myapp
 
 # Install dependencies
 npm install
