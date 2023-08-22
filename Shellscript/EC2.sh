@@ -6,7 +6,7 @@ INSTANCE_TYPE="t2.micro"
 AMI_ID="ami-0d951b011aa0b2c19"  # Amazon Linux 2 AMI ID, change based on your region
 
 # Create EC2 instance
-INSTANCE_ID=$ i-04f65c4ba80f121e9 \
+INSTANCE_ID=$i-04f65c4ba80f121e9 \
     --region $ap-south-1 \
     --instance-type $t2.micro \
     --image-id $ami-0d951b011aa0b2c19 \
@@ -15,6 +15,6 @@ INSTANCE_ID=$ i-04f65c4ba80f121e9 \
     --subnet-id subnet-0dd34273f9f7586c0 \
     --associate-public-ip-address \
     --block-device-mappings "[{\"DeviceName\":\"/dev/xvda\",\"Ebs\":{\"VolumeSize\":30}}]" \
-    --output json | jq -r '.Instances[0].InstanceId')
+    --output json | jq -r ".Instances[0].InstanceId")
 
 echo "EC2 instance created with Instance ID: $INSTANCE_ID"
