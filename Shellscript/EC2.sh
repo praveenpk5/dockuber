@@ -6,7 +6,7 @@ INSTANCE_TYPE="t2.micro"
 AMI_ID="ami-0d951b011aa0b2c19"  # Amazon Linux 2 AMI ID, change based on your region
 
 # Create EC2 instance
-INSTANCE_ID=$i-04f65c4ba80f121e9 \
+INSTANCE_ID=$ i-04f65c4ba80f121e9 \
     --region $ap-south-1 \
     --instance-type $t2.micro \
     --image-id $ami-0d951b011aa0b2c19 \
